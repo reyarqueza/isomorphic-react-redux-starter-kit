@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function (props) {
-  console.log('props', props);
   return (
     <div>
       <h1>Barebones Isomorphic Template</h1>
