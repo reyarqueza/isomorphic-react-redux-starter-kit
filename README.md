@@ -10,7 +10,6 @@ Its benefits are:
 - SSR + CSR = Isomorphic React with ReactDOMServer and ReactDOM.hydrate
 - Server Side Redux (which handles the intial redux state)
 - Initially have Lighthouse 100 scores across the board (except PWA)
-- Prettier built in
 
 ![Lighthouse Initial Score](https://raw.githubusercontent.com/reyarqueza/isomorphic-react-starter-kit/main/public/images/lighthouse.webp?raw=true 'Lighthouse Initial Score')
 
