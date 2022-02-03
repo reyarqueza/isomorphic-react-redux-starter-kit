@@ -12,6 +12,8 @@ Its benefits are:
 - Initially have Lighthouse 100 scores across the board (except PWA)
 - Prettier built in
 
+![Lighthouse Initial Score](https://raw.githubusercontent.com/reyarqueza/isomorphic-react-starter-kit/main/public/images/lighthouse.webp?raw=true 'Lighthouse Initial Score')
+
 ## Install and start it up!
 
 ```bash
