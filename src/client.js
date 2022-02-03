@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import thunk from 'redux-thunk';
 import {createStore, applyMiddleware} from 'redux';
+import {composeWithDevTools} from 'redux-devtools-extension';
 import {Provider} from 'react-redux';
 
 import AppContainer from './jsx/AppContainer.jsx';
@@ -13,7 +14,7 @@ const preloadedState = window.__PRELOADED_STATE__;
 // Allow the passed state to be garbage-collected
 delete window.__PRELOADED_STATE__;
 
-const store = createStore(reducer, preloadedState, applyMiddleware(thunk));
+const store = createStore(reducer, preloadedState, composeWithDevTools(applyMiddleware(thunk)));
 
 ReactDOM.hydrate(
   <Provider store={store}>
