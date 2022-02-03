@@ -7,7 +7,7 @@ import {Provider} from 'react-redux';
 import reducer from './reducers';
 
 import App from './jsx/App.jsx';
-import props from './public/json/api.json';
+import props from '../public/json/api.json';
 
 import wrapper from './wrapper';
 
