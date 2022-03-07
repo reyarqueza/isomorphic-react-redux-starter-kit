@@ -23,7 +23,7 @@ function home(req, res) {
     wrapper(
       ReactDOMServer.renderToString(
         <Provider store={store}>
-          <App {...props} />
+          <App />
         </Provider>
       ),
       preloadedState
