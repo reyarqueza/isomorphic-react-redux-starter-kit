@@ -1,5 +1,5 @@
 import {API} from '../actions';
-import json from '../public/json/api.json';
+import json from '../../public/json/api.json';
 
 export default function api(state = {...json}, action) {
   const json = action.json;

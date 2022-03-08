@@ -1,5 +1,5 @@
 const config = {
-  entry: './client.js',
+  entry: './src/client.js',
   devtool: 'source-map',
   output: {
     filename: './js/bundle.js',

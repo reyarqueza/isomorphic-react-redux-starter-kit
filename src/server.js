@@ -7,12 +7,12 @@ import {Provider} from 'react-redux';
 import reducer from './reducers';
 
 import App from './jsx/App.jsx';
-import props from './public/json/api.json';
+import props from '../public/json/api.json';
 
 import wrapper from './wrapper';
 
 const app = express();
-const port = 3333;
+const port = 3000;
 const store = createStore(reducer);
 // Grab the initial state from our Redux store
 const preloadedState = store.getState();
